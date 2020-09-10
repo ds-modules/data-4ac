@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7ccd232d8fb047e3889ef1ca208238bf {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_7ccd232d8fb047e3889ef1ca208238bf" ></div>
+        
+</body>
+<script>    
+    
+            var map_7ccd232d8fb047e3889ef1ca208238bf = L.map(
+                "map_7ccd232d8fb047e3889ef1ca208238bf",
+                {
+                    center: [36.7333, -100.7667],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_114ffb902cd946e7894b8d54a499e9f7 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_7ccd232d8fb047e3889ef1ca208238bf);
+        
+    
+            var marker_aa82641451ce498fb18acac49ccf6ba3 = L.marker(
+                [33.065083, -111.830528],
+                {"color": "crimson", "fill": true, "fillColor": "crimson", "radius": 13348000.0}
+            ).addTo(map_7ccd232d8fb047e3889ef1ca208238bf);
+        
+    
+        var popup_118c1a4701704071913289311a88b21c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2befc0ece2a142558e960515f8166b47 = $(`<div id="html_2befc0ece2a142558e960515f8166b47" style="width: 100.0%; height: 100.0%;">Gila River Relocation Center</div>`)[0];
+            popup_118c1a4701704071913289311a88b21c.setContent(html_2befc0ece2a142558e960515f8166b47);
+        
+
+        marker_aa82641451ce498fb18acac49ccf6ba3.bindPopup(popup_118c1a4701704071913289311a88b21c)
+        ;
+
+        
+    
+    
+            marker_aa82641451ce498fb18acac49ccf6ba3.bindTooltip(
+                `<div>
+                     test
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b92f67f90093443b979e95b7ada269ab = L.marker(
+                [33.9875, -114.40111100000001],
+                {"color": "crimson", "fill": true, "fillColor": "crimson", "radius": 17814000.0}
+            ).addTo(map_7ccd232d8fb047e3889ef1ca208238bf);
+        
+    
+        var popup_9face5ba9660434091e22c5ddc1884bd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d87009335e944528bc96eaa37492974c = $(`<div id="html_d87009335e944528bc96eaa37492974c" style="width: 100.0%; height: 100.0%;">Poston Relocation Center</div>`)[0];
+            popup_9face5ba9660434091e22c5ddc1884bd.setContent(html_d87009335e944528bc96eaa37492974c);
+        
+
+        marker_b92f67f90093443b979e95b7ada269ab.bindPopup(popup_9face5ba9660434091e22c5ddc1884bd)
+        ;
+
+        
+    
+    
+            marker_b92f67f90093443b979e95b7ada269ab.bindTooltip(
+                `<div>
+                     test
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1db26d6482074bac856b75f824d23cfe = L.marker(
+                [33.411667, -91.461111],
+                {"color": "crimson", "fill": true, "fillColor": "crimson", "radius": 8497000.0}
+            ).addTo(map_7ccd232d8fb047e3889ef1ca208238bf);
+        
+    
+        var popup_6d10caea9ca74cdcb413908cca28c5d7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_396463f00c2f43c395a27e441cc82293 = $(`<div id="html_396463f00c2f43c395a27e441cc82293" style="width: 100.0%; height: 100.0%;">Jerome Relocation Center</div>`)[0];
+            popup_6d10caea9ca74cdcb413908cca28c5d7.setContent(html_396463f00c2f43c395a27e441cc82293);
+        
+
+        marker_1db26d6482074bac856b75f824d23cfe.bindPopup(popup_6d10caea9ca74cdcb413908cca28c5d7)
+        ;
+
+        
+    
+    
+            marker_1db26d6482074bac856b75f824d23cfe.bindTooltip(
+                `<div>
+                     test
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cf7128dbed454037862eb018b11d53af = L.marker(
+                [33.766296999999994, -91.280158],
+                {"color": "crimson", "fill": true, "fillColor": "crimson", "radius": 8475000.0}
+            ).addTo(map_7ccd232d8fb047e3889ef1ca208238bf);
+        
+    
+        var popup_3a3cc9e04c074558af733eb7df338f3d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bdc68d43601b45b9832ac7784c3aef67 = $(`<div id="html_bdc68d43601b45b9832ac7784c3aef67" style="width: 100.0%; height: 100.0%;">Rohwer Relocation Center</div>`)[0];
+            popup_3a3cc9e04c074558af733eb7df338f3d.setContent(html_bdc68d43601b45b9832ac7784c3aef67);
+        
+
+        marker_cf7128dbed454037862eb018b11d53af.bindPopup(popup_3a3cc9e04c074558af733eb7df338f3d)
+        ;
+
+        
+    
+    
+            marker_cf7128dbed454037862eb018b11d53af.bindTooltip(
+                `<div>
+                     test
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1c03e9ce4fed4997b48f123baaa72d7a = L.marker(
+                [36.728333, -118.154444],
+                {"color": "crimson", "fill": true, "fillColor": "crimson", "radius": 10046000.0}
+            ).addTo(map_7ccd232d8fb047e3889ef1ca208238bf);
+        
+    
+        var popup_e77be06bc5ff4ddabce7d85414c84b9d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_84b0f5e6acbd4f1ea18fbb84aad899a0 = $(`<div id="html_84b0f5e6acbd4f1ea18fbb84aad899a0" style="width: 100.0%; height: 100.0%;">Manzanar Relocation Center</div>`)[0];
+            popup_e77be06bc5ff4ddabce7d85414c84b9d.setContent(html_84b0f5e6acbd4f1ea18fbb84aad899a0);
+        
+
+        marker_1c03e9ce4fed4997b48f123baaa72d7a.bindPopup(popup_e77be06bc5ff4ddabce7d85414c84b9d)
+        ;
+
+        
+    
+    
+            marker_1c03e9ce4fed4997b48f123baaa72d7a.bindTooltip(
+                `<div>
+                     test
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_256b6fb4d54644a69c803735b3766994 = L.marker(
+                [41.889444, -121.37472199999999],
+                {"color": "crimson", "fill": true, "fillColor": "crimson", "radius": 18789000.0}
+            ).addTo(map_7ccd232d8fb047e3889ef1ca208238bf);
+        
+    
+        var popup_b4d80b1fb27049f8bf21cc9043512941 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_de53a83523124bd78dea9c87d6a71ffb = $(`<div id="html_de53a83523124bd78dea9c87d6a71ffb" style="width: 100.0%; height: 100.0%;">Tule Lake Relocation Center</div>`)[0];
+            popup_b4d80b1fb27049f8bf21cc9043512941.setContent(html_de53a83523124bd78dea9c87d6a71ffb);
+        
+
+        marker_256b6fb4d54644a69c803735b3766994.bindPopup(popup_b4d80b1fb27049f8bf21cc9043512941)
+        ;
+
+        
+    
+    
+            marker_256b6fb4d54644a69c803735b3766994.bindTooltip(
+                `<div>
+                     test
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5285440343d34bdbaaa238d4404c7e68 = L.marker(
+                [38.049444, -102.328611],
+                {"color": "crimson", "fill": true, "fillColor": "crimson", "radius": 7318000.0}
+            ).addTo(map_7ccd232d8fb047e3889ef1ca208238bf);
+        
+    
+        var popup_6c737746cbe14b0bac3b416b12dd93bb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1e335cfd57774fed94fc641cd6f9e308 = $(`<div id="html_1e335cfd57774fed94fc641cd6f9e308" style="width: 100.0%; height: 100.0%;">Granada Relocation Center</div>`)[0];
+            popup_6c737746cbe14b0bac3b416b12dd93bb.setContent(html_1e335cfd57774fed94fc641cd6f9e308);
+        
+
+        marker_5285440343d34bdbaaa238d4404c7e68.bindPopup(popup_6c737746cbe14b0bac3b416b12dd93bb)
+        ;
+
+        
+    
+    
+            marker_5285440343d34bdbaaa238d4404c7e68.bindTooltip(
+                `<div>
+                     test
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_012ba5d2acfb441489f71970ada38df0 = L.marker(
+                [42.678999999999995, -114.244],
+                {"color": "crimson", "fill": true, "fillColor": "crimson", "radius": 9397000.0}
+            ).addTo(map_7ccd232d8fb047e3889ef1ca208238bf);
+        
+    
+        var popup_f7441f91d75c4c46a5b41ec632f9a1ee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ea285ee4169b4e4087d73a5dd8d04db9 = $(`<div id="html_ea285ee4169b4e4087d73a5dd8d04db9" style="width: 100.0%; height: 100.0%;">Minidoka Relocation Center</div>`)[0];
+            popup_f7441f91d75c4c46a5b41ec632f9a1ee.setContent(html_ea285ee4169b4e4087d73a5dd8d04db9);
+        
+
+        marker_012ba5d2acfb441489f71970ada38df0.bindPopup(popup_f7441f91d75c4c46a5b41ec632f9a1ee)
+        ;
+
+        
+    
+    
+            marker_012ba5d2acfb441489f71970ada38df0.bindTooltip(
+                `<div>
+                     test
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2a638a8bcbf446afa23072fb3944ec8f = L.marker(
+                [39.418336100000005, -112.70874979999999],
+                {"color": "crimson", "fill": true, "fillColor": "crimson", "radius": 8130000.0}
+            ).addTo(map_7ccd232d8fb047e3889ef1ca208238bf);
+        
+    
+        var popup_dc5af17352c84b28852a7d9e9cb99797 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9f73764aebec44cd91c88353e5ffad1c = $(`<div id="html_9f73764aebec44cd91c88353e5ffad1c" style="width: 100.0%; height: 100.0%;">Topaz Relocation Center</div>`)[0];
+            popup_dc5af17352c84b28852a7d9e9cb99797.setContent(html_9f73764aebec44cd91c88353e5ffad1c);
+        
+
+        marker_2a638a8bcbf446afa23072fb3944ec8f.bindPopup(popup_dc5af17352c84b28852a7d9e9cb99797)
+        ;
+
+        
+    
+    
+            marker_2a638a8bcbf446afa23072fb3944ec8f.bindTooltip(
+                `<div>
+                     test
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a5fdcfd6a56241978b1d57d2fb6fc6d4 = L.marker(
+                [44.671667, -108.946389],
+                {"color": "crimson", "fill": true, "fillColor": "crimson", "radius": 343000.0}
+            ).addTo(map_7ccd232d8fb047e3889ef1ca208238bf);
+        
+    
+        var popup_7d972085122144d080f91f1c4c65bf84 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eb833b8dc91e4e9593fb340284976dd8 = $(`<div id="html_eb833b8dc91e4e9593fb340284976dd8" style="width: 100.0%; height: 100.0%;">Heart Mountain Relocation Center</div>`)[0];
+            popup_7d972085122144d080f91f1c4c65bf84.setContent(html_eb833b8dc91e4e9593fb340284976dd8);
+        
+
+        marker_a5fdcfd6a56241978b1d57d2fb6fc6d4.bindPopup(popup_7d972085122144d080f91f1c4c65bf84)
+        ;
+
+        
+    
+    
+            marker_a5fdcfd6a56241978b1d57d2fb6fc6d4.bindTooltip(
+                `<div>
+                     test
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
