@@ -8,7 +8,9 @@ Data science module for UC Berkeley course COLWRIT-R4B.
 
 This module explores data relating to Japanese internment during World War II using changing population maps over time.
 
-** Data 4 Adaptation ** Keralyn Chong, Jason Jianb
+**Data 4 Adaptation ** Keralyn Chong, Jason Jiang
+
+
 **Developers:** Alleanna Clark, Aishah Mahmud, Monica Wilkinson
 
 
