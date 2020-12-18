@@ -1,4 +1,4 @@
-# Notebok 1: The Japanese-American Internment and its Legacy
+# Notebook 1: The Japanese-American Internment and its Legacy
 
 **This notebook was adapted from a Module originally deployed in [College Writing R4B](https://github.com/ds-modules/colwrit-r4b).**
 
