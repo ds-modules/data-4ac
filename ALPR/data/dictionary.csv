@@ -1,0 +1,77 @@
+Data Dictionary for CES4.0FINAL_results Data Spreadsheet,
+Variable Name,Description
+Census Tract,Census Tract ID from 2010 Census
+Total Population,2019 ACS population estimates in census tracts 
+California County,California county that the census tract falls within
+ZIP,Postal ZIP Code that the census tract falls within
+Approximate Location,"Approximate city where each census tract is located based on US Census Incorporated Places (2020, Cities), US Census Designated Places, (2020, Designated Places), and the CA Department of Tax and Fees City and County Boundaries and City Annexations (2021, Unincorporated Areas) boundary files. All tracts that did not fall within one of these boundaries were assigned ""unincorporated county area"" based on that tract's county. This is for reference purposes only and should not be used to determine whether a census tract falls within a city or town boundary."
+Longitude,Longitude of the centroid of the census tract
+Latitude,Latitude of the centroid of the census tract
+CES 4.0 Score,"CalEnviroScreen Score, Pollution Score multiplied by Population Characteristics Score"
+CES 4.0 Percentile,Percentile of the CalEnviroScreen score
+CES 4.0 Percentile Range,"Percentile of the CalEnviroScreen score, grouped by 5% increments "
+Ozone,Amount of daily maximum 8 hour Ozone concentration 
+Ozone Pctl,Ozone percentile
+PM2.5,Annual mean PM 2.5 concentrations
+PM2.5 Pctl,PM2.5 percentile
+Diesel PM,Diesel PM emissions from on-road and non-road sources
+Diesel PM Pctl,Diesel PM percentile
+Drinking Water,Drinking water contaminant index for selected contaminants
+Drinking Water Pctl,Drinking water percentile
+Lead,Potential risk for lead exposure in children living in low-income communities with older housing
+Lead Pctl,Children's lead risk from housing percentile
+Pesticides,Total pounds of selected active pesticide ingredients (filtered for hazard and volatility) used in production-agriculture per square mile in the census tract
+Pesticides Pctl,Pesticides percentile
+Tox. Release,Toxicity-weighted concentrations of modeled chemical releases to air from facility emissions and off-site incineration (from RSEI)
+Tox. Release Pctl,Toxic release percentile
+Traffic,"Traffic density, in vehicle-kilometers per hour per road length, within 150 meters of the census tract boundary"
+Traffic Pctl,Traffic percentile
+Cleanup Sites,"Cleanup sites, sum of weighted EnviroStor cleanup sites within buffered distances to populated blocks of census tracts"
+Cleanup Sites Pctl,Cleanup sites percentile
+Groundwater Threats,"Groundwater threats, sum of weighted GeoTracker leaking underground storage tank sites  within buffered distances to populated blocks of census tracts"
+Groundwater Threats Pctl,Groundwater threats percentile
+Haz. Waste,Sum of weighted hazardous waste facilities and large quantity generators within buffered distances to populated blocks of census tracts
+Haz. Waste Pctl,Hazardous waste percentile
+Imp. Water Bodies,"Impaired water bodies, sum of number of pollutants across all impaired water bodies within buffered distances to populated blocks of census tracts"
+Imp. Water Bodies Pctl,Impaired water bodies percentile
+Solid Waste,Sum of weighted solid waste sites and facilities (SWIS) within  buffered distances to populated blocks of census tracts
+Solid Waste Pctl,Solid waste percentile
+Pollution Burden,Average of percentiles from the Pollution Burden indicators (with a half weighting for the Environmental Effects indicators)
+Pollution Burden Score,Pollution Burden variable scaled with a range of 0-10. (Used to calculate CES 4.0 Score)
+Pollution Burden Pctl,Pollution burden percentile
+Asthma,Age-adjusted rate of emergency department visits for asthma
+Asthma Pctl,Asthma percentile
+Low Birth Weight,Percent low birth weight
+Low Birth Weight Pctl,Low birth weight percentile
+Cardiovascular Diesease ,"Age-adjusted rate of emergency department visits for heart attacks per 10,000"
+Cardiovascular Diesease  Pctl,Cardiovascular disease percentile
+Education,Percent of population over 25 with less than a high school education
+Education Pctl,Education percentile
+Linguistic Isolation,Percent limited English speaking households
+Linguistic Isolation Pctl,Linguistic isolation percentile
+Poverty,Percent of population living below two times the federal poverty level
+Poverty Pctl,Poverty percentile
+Unemployment,Percent of the population over the age of 16 that is unemployed and eligible for the labor force
+Unemployment Pctl,Unemployment percentile
+Housing Burden,Percent housing burdened low income households
+Housing Burden Pctl,Housing burden percentile
+Pop. Char. ,Average of percentiles from the Population Characteristics indicators
+Pop. Char. Score,Population Characteristics variable scaled with a range of 0-10. (Used to calculate CES 4.0 Score)
+Pop. Char. Score Pctl,Population characteristics percentile
+Data Dictionary for Demographic Profile Tab,
+Variable Name,Description
+Census Tract,Census Tract ID from 2010 Census
+CES 4.0 Score,"CalEnviroScreen Score, Pollution Score multiplied by Population Characteristics Score"
+CES 4.0 Percentile,Percentile of the CalEnviroScreen score
+CES 4.0 Percentile Range,"Percentile of the CalEnviroScreen score, grouped by 5% increments "
+California County,California county that the census tract falls within
+Total Population,2019 ACS population estimates in census tracts 
+Children < 10 years (%),2019 ACS population estimates of the percent per census tract of children under 10 years old
+Pop 10-64 years (%),2019 ACS population estimates of the percent per census tract of people between 10 and 64 years old 
+Elderly > 64 years (%),2019 ACS population estimates of the percent per census tract of elderly 65 years and older 
+Hispanic (%),2019 ACS population estimates of the percent per census tract of those who identify as Hispanic or Latino 
+White (%),2019 ACS population estimates of the percent per census tract of those who identify as non-Hispanic white
+African American (%),2019 ACS population estimates of the percent per census tract of those who identify as non-Hispanic African American or black 
+Native American (%),2019 ACS population estimates of the percent per census tract of those who identify as non-Hispanic Native American
+Asian American (%),2019 ACS population estimates of the percent per census tract of those who identify as non-Hispanic Asian or Pacific Islander
+Other/Multiple (%),"2019 ACS population estimates of the percent per census tract of those who identify as non-Hispanic ""other"" or as multiple races "
