@@ -6,12 +6,16 @@ import pandas as pd
 from datascience import *
 import numpy as np
 
+import seaborn as sns
 import matplotlib
 import matplotlib.pyplot as plt
 plt.style.use('fivethirtyeight')
 
 import ipywidgets as widgets
 plt.style.use('fivethirtyeight')
+
+import warnings
+warnings.filterwarnings("ignore")
 
 ###
 
@@ -37,9 +41,9 @@ inp = widgets.IntSlider(
 
 def f(inp):
     inst = grouped.where(0, institutions[inp])
-    inst.plot(1, "Percent Occupied")
+    sns.lineplot(data = inst, x = 1, y = "Percent Occupied")
     year1 = inst.column("year") 
-    if np.any(year1 == 2011):
+    if any(year1 == 2011):
 #         plt.axvline(x=2011, color = "red")
         point1 = inst.where("year", 2011).column("Percent Occupied").item(0)
         plt.plot([2011], [point1], 'ro')
@@ -50,7 +54,7 @@ def f(inp):
         bbox=dict(boxstyle='round,pad=0.5', fc='red', alpha=0.3),
         arrowprops=dict(arrowstyle = '->', connectionstyle='arc3,rad=0'))
         
-    if np.any(year1 == 2013):
+    if any(year1 == 2013):
 #         plt.axvline(x=2013, color = "cyan")
         point2 = inst.where("year", 2013).column("Percent Occupied").item(0) 
         plt.plot([2013], [point2], 'co')
@@ -61,7 +65,7 @@ def f(inp):
         bbox=dict(boxstyle='round,pad=0.5', fc='cyan', alpha=0.3),
         arrowprops=dict(arrowstyle = '->', connectionstyle='arc3,rad=0'))
         
-    if np.any(year1 == 2014):
+    if any(year1 == 2014):
 #         plt.axvline(x=2014, color = "orange")
         point3 = inst.where("year", 2014).column("Percent Occupied").item(0)
         plt.plot([2014], [point3], 'yo')
