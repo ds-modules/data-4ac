@@ -1,3 +1,3 @@
 # Notebook 0: Introduction to Jupyter and Python
 
-**Developers:** Jason Jiang
+**Developers:** Jason Jiang, Aidan Praytor (REVISED SP25)
