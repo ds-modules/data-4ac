@@ -1,7 +1,6 @@
-# data-4ac
-<b>Instructor: Mauricio Najarro <br>
-Graduate Student Instructor: Elijah Mercer</b> 
-> Maintained by: Jonathan Ferrari, Drishti Gupta, Erica Jean, Manaar Salama, Aidan Praytor, and the HCE Team
+# data-4ac (previous semesters, currently using DATA-4AC-SP25)
+## Professor Ari Edmundson
+> Currently maintained by: Jonathan Ferrari, Drishti Gupta, Erica Jean, Manaar Salama, and the HCE Team
 
 Modules for the Data 4AC Class offered by UC Berkeley. 
 
