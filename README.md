@@ -1,6 +1,8 @@
-# data-4ac (previous semesters, currently using DATA-4AC-SP25)
+# data-4ac 
 ## Professor Ari Edmundson
 > Currently maintained by: Jonathan Ferrari, Drishti Gupta, Erica Jean, Manaar Salama, and the HCE Team
+
+This repo holds work for semesters before Spring 2025. Spring 2025 is found in [DATA-4AC-SP25](https://github.com/ds-modules/DATA-4AC-SP25)
 
 Modules for the Data 4AC Class offered by UC Berkeley. 
 
